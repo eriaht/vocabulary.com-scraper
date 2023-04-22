@@ -4,9 +4,9 @@ This is a small python script that scrapes vocabulary lists from vocabulary.com 
 ## How to use the script
 This script takes a single command line argument, the argument will be the link to your list on vocabulary.com.
 * Make sure you have python installed
-* packages you'll need installed requests and bs4
-* open your command line of choice
-* enter ```python vocab_scrape.py <link to vocabulary.com vocab list>```
+* The packages you'll need installed are requests and bs4
+* Open your command line of choice
+* Enter ```python vocab_scrape.py <link to vocabulary.com vocab list>```
 
 ### How I used the script to output the list of words to a text file on my desktop
 ```
