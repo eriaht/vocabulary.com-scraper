@@ -133,7 +133,6 @@ python vocab_scrape.py https://www.vocabulary.com/lists/98722 > ~/Desktop/words.
  err
  parity
  glorify
-
 ```
 
 
