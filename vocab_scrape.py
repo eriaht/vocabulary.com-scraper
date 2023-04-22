@@ -18,6 +18,6 @@ try:
 
     # Print all the words
     for word in words:
-        print(word.text)
+        print(word.text.strip())
 except:
     print("Error: Invalid link, please try a valid vocabulary.com url")
