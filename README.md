@@ -11,7 +11,7 @@ This script takes a single command line argument, the argument will be the link 
 ```
 python vocab_scrape.py https://www.vocabulary.com/lists/98722 > ~/Desktop/words.txt
 ```
-#### example output
+#### Example output
 ```
  abandon
  abate
