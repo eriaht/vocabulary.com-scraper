@@ -9,6 +9,6 @@ try:
     words = soup.select(".word")
 
     for word in words:
-        print(word.text)
+        print(word.text.strip())
 except:
     print("Invalid link")
