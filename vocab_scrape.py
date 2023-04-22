@@ -20,4 +20,4 @@ try:
     for word in words:
         print(word.text)
 except:
-    print("Error: Invalid link, please try a valid vocabulary.com url.")
+    print("Error: Invalid link, please try a valid vocabulary.com url")
