@@ -6,11 +6,11 @@ import requests
 import bs4
 
 # Get the link from the first command line argument
-list = sys.argv[1]
+list_page = sys.argv[1]
 
 try:
-    # Request the page for the list
-    response = requests.get(list)
+    # Request the page that contains the vocabulary list
+    response = requests.get(list_page)
     # Make soup from the HTML in the response
     soup = bs4.BeautifulSoup(response.text, features="html.parser")
     # Select all elements with class "word"
