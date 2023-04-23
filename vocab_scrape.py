@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Written by EriahT
 # This script scrapes vocabulary lists from vocabulary.com
 
@@ -5,10 +6,9 @@ import sys
 import requests
 import bs4
 
-# Get the link from the first command line argument
-list_page = sys.argv[1]
-
 try:
+    # Get the link from the first command line argument
+    list_page = sys.argv[1]
     # Request the page that contains the vocabulary list
     response = requests.get(list_page)
     # Make soup from the HTML in the response
