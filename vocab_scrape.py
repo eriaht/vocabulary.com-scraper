@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # Written by EriahT
 # This script scrapes vocabulary lists from vocabulary.com
 
