@@ -13,8 +13,12 @@ try:
     response = requests.get(list_page)
     # Make soup from the HTML in the response
     soup = bs4.BeautifulSoup(response.text, features="html.parser")
-    # Select all elements with class "word"
+    
+    # Select all words
     words = soup.select(".word")
+    
+    if len(words) == 0:
+        words = soup.select(".words")
 
     # Print all the words
     for word in words:
