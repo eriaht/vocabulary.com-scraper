@@ -1,5 +1,5 @@
 # vocabulary.com-scraper
-This is a small python script that scrapes vocabulary lists from vocabulary.com and outputs the list to your command line.
+This is a python script that scrapes vocabulary lists from vocabulary.com and outputs the list to your command line.
 
 ## How to use the script
 This script takes a single command line argument, the argument will be the link to your list on vocabulary.com.
